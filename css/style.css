@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: black;
+    background-color: gray;
 }
 
 /* The Modal (background) */
@@ -23,10 +23,10 @@ body{
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
     transition: all .3s;
-  }
+}
   
-  /* Modal Content */
-  .modal-content {
+/* Modal Content */
+.modal-content {
     background-color: #fefefe;
     margin: auto;
     padding: 20px;
@@ -34,22 +34,22 @@ body{
     border-radius: 10px;
     width: auto;
     display: table;
-  }
+}
   
-  /* The Close Button */
-  .close {
+/* The Close Button */
+.close {
     color: #aaaaaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
-  }
+}
   
-  .close:hover,
-  .close:focus {
+.close:hover,
+.close:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
-  }
-  .close {
+}
+.close {
     transition: all .3s;
-  }
+}
