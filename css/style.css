@@ -38,18 +38,13 @@ body{
   
 /* The Close Button */
 .close {
-    color: #FFF;
     float: right;
-    font-size: 28px;
+    font-size: 15px;
     font-weight: bold;
 }
   
 .close:hover,
 .close:focus {
-    color: #000;
     text-decoration: none;
     cursor: pointer;
-}
-.close {
-    transition: all .3s;
 }
