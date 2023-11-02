@@ -25,12 +25,15 @@ window.onload = function modalopen() {
     </div>
   `;
   bodyTag.insertAdjacentHTML('beforeend', insertModale);
+
+  const para = document.getElementById("paragraphe");
+  para.style.display = "none";
 }
 
-const openModal = () => {
-  const modal = document.getElementById("myModal");
-  modal.style.display = "block";
-}
+// const openModal = () => {
+//   const modal = document.getElementById("myModal");
+//   modal.style.display = "block";
+// }
 
 const closeModal = () => {
   const modal = document.getElementById("myModal");
@@ -40,4 +43,7 @@ const closeModal = () => {
 window.addEventListener('click', (e) => {
   const modal = document.getElementById("myModal");
   modal.style.display = "none";
+
+  const para = document.getElementById("paragraphe");
+  para.style.display = "block";
 })
