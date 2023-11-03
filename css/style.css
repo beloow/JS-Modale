@@ -3,14 +3,10 @@
     padding: 0;
     margin: 0;
 }
-body{
-    background-color: rgb(238, 171, 171);
-}
 .modal {
-    opacity:1;
     position: fixed; 
     z-index: 1; 
-    padding-top: 100px; 
+    padding-top: 25%; 
     left: 0;
     top: 0;
     width: 100%; 
@@ -39,3 +35,60 @@ body{
     text-decoration: none;
     cursor: pointer;
 }
+
+.section-title{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.section-sous-title{
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.red{
+    color: red;
+}
+
+/* /////////////////////// Boutons ////////////////////// */
+
+.bn632-hover {
+    width: 160px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:focus {
+    outline: none;
+  }
+  
+  .bn632-hover.bn27 {
+    background-image: linear-gradient(
+      to right,
+      #ed6ea0,
+      #ec8c69,
+      #f7186a,
+      #fbb03b
+    );
+    box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+  }
