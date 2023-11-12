@@ -15,7 +15,6 @@ function modalOpen() {
     <div id="myModal" class="modal">
       <div class="modal-content">
           <button class="close" id="close"> <i class="fa-solid fa-x"></i> </button>
-
           <h1>Titre du modale</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus fuga est aspernatur natus, doloribus numquam.</p>
       </div>
