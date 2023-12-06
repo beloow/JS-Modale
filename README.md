@@ -1,2 +1,2 @@
 # JS-Modale
- Crée une modale en Javascript
+Réaliser une modale en JavaScript
